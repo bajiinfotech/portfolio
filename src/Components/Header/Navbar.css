@@ -1,0 +1,85 @@
+.header-main {
+    /* padding: 10px 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30%;
+    height: auto;
+}
+
+.nav-links {
+    position: relative;
+}
+
+
+.nav-links ul {
+    /* padding: 10px 20px; */
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+.ham-line {
+    width: 15px;
+    height: 2px;
+    background-color: red;
+    margin: 2px 0;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hire-me-btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: #8750f7;
+    border-radius: 17px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #8750f7;
+}
+
+
+@media screen and (max-width:767px) {
+    .active{
+        display: block;
+    }
+    .inactive{
+        display: none;
+    }
+    .nav-links ul {
+        display: block;
+        position: fixed;
+        top: 0;
+        /* right: 0; */
+        left: 0;
+        z-index: 10;
+        padding: 76px 35px;
+        background-color: rgb(107 76 171 / 87%);
+        width: 90%;
+        height: 100vh;
+    }
+    .nav-links ul li{
+        padding: 10px;
+    }
+
+    .hamburger {
+        display: block;
+        padding: 10px;
+    }
+}

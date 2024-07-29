@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;  
+}
+
+.footer-container{
+    background-color: rgb(20, 12, 28) !important;
+    /* margin-top: 30px; */
+}
+
+.footer-logo{
+    text-align: center;
+}
+.footer-logo img{
+    width: 50%;
+
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+}

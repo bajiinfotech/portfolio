@@ -1,0 +1,18 @@
+.testimonial-main{
+    /* background-color: black;
+    color: white; */
+    display: flex;
+    padding: 70px 0;
+}
+.testimonial-row1{
+    width: 50%;
+}
+.testimonial-row1 h2{
+    font-size: 45px;
+}
+.testimonial-row1 p{
+    font-size: 20px;
+}
+.testimonial-row2{
+    width: 50%;
+}

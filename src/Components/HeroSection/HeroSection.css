@@ -1,0 +1,144 @@
+.hero-main {
+    /* background-color: black;
+    color: white; */
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 50px !important;
+    /* flex-wrap: wrap-reverse; */
+
+}
+
+.hero-main h2 {
+    font-size: 2rem;
+    margin-block-start: 0;
+    margin-block-end: 4px;
+    color: #dddddd;
+}
+
+.hero-main h1 {
+    font-size: 95px;
+    /* color: rgb(225, 73, 73); */
+    /* background-color: linear-gradient(to right, #871ef0, #871ef0, #2a1454); */
+    /* margin-block-start: 0; */
+    /* margin-block-end: 5px; */
+    background: linear-gradient(to right, #871ef0, #b289db, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-main p {
+    font-size: 20px;
+}
+
+.hero-main span {
+    display: block;
+}
+
+.hero-social {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 10px;
+}
+
+.Hero-social-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+
+.hero-icons {
+    border: 2px solid #8750f7;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 40px;
+}
+
+.hero-icons:hover {
+    /* color: white; */
+    /* background-color: white; */
+    color: rgb(255, 255, 255);
+}
+
+.hero-main button {
+    border-radius: 20px;
+    padding: 16px 35px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #8750f7;
+}
+
+.hero-main img {
+    transform: rotate(3deg);
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #8750f7;
+    border-radius: 38px;
+}
+
+.hero-main img:hover {
+    transform: rotate(0deg);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 10px 10px 100px 10px #8750f7;
+}
+
+.history-main {
+    /* background-color: black;
+    color: white; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.history-item {
+    display: flex;
+    align-items: center;
+}
+
+.history-item h2 {
+    font-size: 60px;
+    padding: 10px;
+}
+
+.history-item p {
+    font-size: 17px;
+    /* padding: 10px; */
+}
+
+.history-item span {
+    display: block;
+}
+
+@media only screen and (max-width:767px) {
+    .hero-main {
+        padding: 0px !important;
+        gap: 40px;
+    }
+
+    .hero-main h2 {
+        font-size: 25px;
+    }
+
+    .hero-main h1 {
+        font-size: 44px;
+    }
+
+    .hero-main p {
+        font-size: 11px;
+        padding-top: 6px;
+    }
+
+    .hero-main img {
+        width: 200px;
+        height: auto;
+    }
+
+
+}

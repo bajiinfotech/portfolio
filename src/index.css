@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: red;
+    /* font-family: "Sora", sans-serif; */
+   
+}
+
+.container {
+    padding: 50px 130px;
+    background-color: black;
+    color: white;
+    /* color: black !important; */
+}
+
+
+
+
+.slick-slide>div {
+    margin: 0 10px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: orange !important;
+}
+
+::-webkit-scrollbar {
+    color: red;
+    background-color: red;
+}
+
+
+
+
+/* responsive styling */
+@media (max-width:375px) {
+    .history-main {
+        gap: 0 !important;
+    }
+
+    .skills {
+        /* align-items: center; */
+        justify-content: center;
+    }
+
+    .carousel-image {
+        padding: 0;
+    }
+}
+
+@media (min-width:760px) and (max-width:768px) {
+    .testimonial-main {
+        flex-direction: column;
+        padding: 40px 0;
+    }
+
+    .testimonial-row1 {
+        text-align: center;
+    }
+
+    .testimonial-row1,
+    .testimonial-row2 {
+        padding: 30px 0;
+        width: 100%;
+    }
+
+    .all-blogs {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blog-details {
+        padding: 9px;
+        left: 20px;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .container {
+        padding: 30px 0;
+    }
+
+
+    .hero-icons {
+        font-size: 30px;
+    }
+
+    .hero-main h1 {
+        font-size: 35px;
+    }
+
+    .hero-main {
+        flex-direction: column-reverse;
+        /* flex-direction: row-reverse; */
+    }
+
+    .hero-main button {
+        padding: 9px 17px;
+    }
+
+    .history-main {
+        justify-content: space-between;
+        gap: 13px;
+    }
+
+
+
+    /* skills section  */
+
+    .services-heading h2 {
+        font-size: 35px;
+    }
+
+
+    .services-item {
+        display: block;
+    }
+
+    /* project section  */
+
+    .project-heading ul li {
+        font-size: 16px;
+    }
+
+
+    .testimonial-main {
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    .project-heading ul li {
+        padding: 0px;
+    }
+
+    .testimonial-row2 {
+        width: 100%;
+    }
+
+    .testimonial-row1 {
+        padding: 30px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .testimonial-row1 h2 {
+        font-size: 32px;
+    }
+
+    /* skills section  */
+
+    .experience {
+        width: 100%;
+    }
+
+    .education {
+        width: 100%;
+    }
+
+    .resume-main {
+        gap: 20px;
+    }
+    .resume-main h2{
+        font-size: 29px;
+        /* text-align: center; */
+    }
+
+
+
+    .carosel-details {
+        padding: 7px 10px;
+    }
+
+    .carosel-details p {
+        padding: 15px 0;
+        font-size: 11px;
+    }
+
+    .slick-next {
+        display: none !important;
+    }
+
+    /* blog section  */
+    .all-blogs {
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* contact section  */
+
+    .contactUs {
+        padding: 30px 0 !important;
+    }
+
+    .blog-details {
+        justify-content: center;
+    }
+
+    .footer-links {
+        gap: 10px;
+    }
+}
+
+
+
+
+@media (min-width:768px) and (max-width:1024px) {
+    .container {
+        padding: 10px 30px;
+    }
+
+    .hero-main h1 {
+        padding: 10px 0;
+        font-size: 38px;
+    }
+
+    .hero-main p {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    .hero-main img {
+        width: 325px;
+    }
+
+    .hero-icons {
+        font-size: 30px;
+    }
+
+    .slick-next {
+        right: 0;
+    }
+
+    .carosel-details {
+        padding: 7px 10px;
+    }
+
+    .carosel-details p {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+
+    /* projects section  */
+    .project {
+        gap: 30px;
+        width: 300px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .project-details {
+        padding: 12px;
+    }
+
+    /* education section  */
+    .resume-main h2 {
+        font-size: 30px;
+    }
+
+    /* contact section  */
+    .contact-form-page{
+        width: 50%;
+    }
+    select,
+    input,
+    textarea {
+        /* width: 94%; */
+        height: 40px;
+        padding: 1px 0;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+}

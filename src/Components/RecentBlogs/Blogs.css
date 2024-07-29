@@ -1,0 +1,47 @@
+.blog-main {
+    /* background: radial-gradient(190deg, #8750f7 0%,rgba(115, 67, 210, 0) 100%); */
+    background: radial-gradient(#350863 10%, rgb(0, 0, 0) 30%);
+    color: white;
+}
+
+.blog-heading {
+    text-align: center;
+    /* padding: 50px 0; */
+}
+
+.blog-heading h2 {
+    font-size: 60px;
+    padding: 10px 0;
+}
+
+
+.all-blogs {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+
+}
+
+
+.blog{
+    max-width: 400px;
+}
+
+.blog-details {
+    color: white;
+    position: absolute;
+    padding: 25px;
+    border-radius: 15px;
+    height: auto;
+    width: 90%;
+    left: 30px;
+    bottom: 20px;
+    background-image: linear-gradient(to right, #871ef0, #58238d, #2a1454);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: opacity 0.5s ease-in-out;
+
+}
+

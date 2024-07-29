@@ -1,0 +1,70 @@
+.resume-main {
+    display: flex;
+    gap: 150px;
+    /* justify-content: space-between; */
+    /* background-color: black;
+    color: white; */
+    flex-wrap: wrap;
+}
+
+.resume-main h2 {
+    font-size: 45px;
+}
+
+
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 38%;
+}
+
+.experience-item {
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: #140c1c;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.experience-item:hover {
+    /* background-color: #8750f7; */
+    background-image: linear-gradient(to right, #871ef0,#871ef0, #2a1454);
+    color: white;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.experience-item h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 8px 0;
+}
+
+
+/* edication section  */
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 38%;
+}
+
+.education-item {
+    padding: 20px 30px;
+    border-radius: 20px;
+    /* background-color: #140c1c; */
+    background-color: #1c1324;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.education-item:hover {
+    background-image: linear-gradient(to right, #871ef0,#871ef0, #2a1454);
+    color: white;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.education-item h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 8px 0;
+}

@@ -1,0 +1,44 @@
+.contactUs {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    /* padding: 130px 130px !important; */
+    flex-wrap: wrap;
+}
+
+
+.contact-form-page {
+    border-radius: 10px;
+    /* background-color: #140c1c; */
+    background-color: #1c1324;
+    color: white;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.details1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.details1 h6 {
+    font-size: 20px;
+}
+
+.details1 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.form-icon {
+    border: 2px solid #8750f7;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 0px;
+}

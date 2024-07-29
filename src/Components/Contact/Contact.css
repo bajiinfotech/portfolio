@@ -1,0 +1,93 @@
+.form-heading h2 {
+    font-size: 32px;
+}
+
+.form-heading p {
+    font-size: 20px;
+}
+
+form {
+
+    /* background-color: aliceblue; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-form {
+    padding: 30px;
+    /* background-color: aliceblue; */
+    /* background-color: #140c1c; */
+    /* background-color: #140c1c; */
+    color: black;
+}
+
+.form-heading {
+    color: white;
+    /* padding: 10px 0; */
+}
+
+.form-heading h2 {
+    background-color: linear-gradient(to right, #871ef0, #a64eff, #f2f2f3);
+    padding: 10px 0;
+
+}
+
+.form-heading p {
+    padding: 10px 0;
+}
+
+.email-div,
+.name {
+    display: flex;
+    gap: 30px;
+}
+
+select,
+input,
+textarea {
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    width: 100%;
+    /* height: 20px; */
+    padding: 16px 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 10px;
+}
+
+select:focus{
+    border-radius: 10px;
+    border: 1px solid #8750f7;
+}
+
+input:focus{
+    border-radius: 10px;
+    border: 1px solid #8750f7;
+}
+
+textarea:focus {
+    border: 1px solid #8750f7;
+    
+}
+
+
+.form-submit {
+    padding: 10px 20px;
+}
+
+.submit button{
+    padding: 10px 50px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #871ef0, #b46dfa, #eae6f3);
+    font-size: 16px;
+    line-height: 24px;
+}

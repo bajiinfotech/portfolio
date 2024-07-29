@@ -1,0 +1,38 @@
+
+.carousel-card{
+    /* height:500px; */
+    border-radius:10px;
+    background-color: #140c1c;
+    color: white;
+}
+.carosel-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 14px;
+}
+.carosel-details p{
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.carousel-image {
+   padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    /* border-radius: 50%; */
+}
+
+.carousel-image img {
+    /* width: 100%;
+    height: auto; */
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 0px 0px 80px;
+}
+
+.slick-dots li button::before{
+    color: white !important;
+}
